@@ -145,33 +145,33 @@ console.log(fruits[8]);
 // to vote.
 
 
-let nationality = prompt("What is your nationality?");
-let gender = prompt("What is your gender?");
-let age = +prompt("How old are you?");
+// let nationality = prompt("What is your nationality?");
+// let gender = prompt("What is your gender?");
+// let age = +prompt("How old are you?");
 
-nationality = nationality.toLocaleLowerCase();
-gender = gender.toLocaleLowerCase();
+// nationality = nationality.toLocaleLowerCase();
+// gender = gender.toLocaleLowerCase();
 
-if (nationality !== "pakistani" && nationality !== "indian") {
-  alert("Sorry, you are not eligible to vote.");
-} else {
-  if (age < 18) {
-    alert("You are not eligible to vote.");
-  } else {
-    if (gender === "male") {
-      alert("You are eligible to vote!");
-    } else if (gender === "female") {
-      let maritalStatus = prompt("Are you married? (yes or no)").toLocaleLowerCase();
-      if (maritalStatus === "yes") {
-        alert("You are eligible to vote!");
-      } else {
-        alert("Sorry, you are not eligible to vote.");
-      }
-    } else {
-      alert("Sorry, you are not eligible to vote.");
-    }
-  }
-}
+// if (nationality !== "pakistani" && nationality !== "indian") {
+//   alert("Sorry, you are not eligible to vote.");
+// } else {
+//   if (age < 18) {
+//     alert("You are not eligible to vote.");
+//   } else {
+//     if (gender === "male") {
+//       alert("You are eligible to vote!");
+//     } else if (gender === "female") {
+//       let maritalStatus = prompt("Are you married? (yes or no)").toLocaleLowerCase();
+//       if (maritalStatus === "yes") {
+//         alert("You are eligible to vote!");
+//       } else {
+//         alert("Sorry, you are not eligible to vote.");
+//       }
+//     } else {
+//       alert("Sorry, you are not eligible to vote.");
+//     }
+//   }
+// }
 
 // // // **********Task 8 MATCH**********
 // You have an array of that contains the name of Pakistani Teams Player selected for
