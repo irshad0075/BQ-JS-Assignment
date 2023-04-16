@@ -57,7 +57,7 @@
 // // display the calculated fitrah amount
 // alert(`The fitrah amount for ${familyMembers} family members using the selected method is ${totalAmount}.`);
 
-// *************Task 3 Fitrah Calculation*************
+// *************Task 3 Secret Number*************
 // Create a program that generates a random number between 1 and 10 and stores it
 // in a variable called "secretNumber". Then, ask the user to enter a guess for the
 // secret number using a prompt.
@@ -93,7 +93,7 @@
 // alert("Your name with first letter capitalize is: " + name2);
 
 
-// // // *********Task 5 Contact number***********8
+//  *********Task 5 Contact number***********8
 
 // In this task, you will be creating two empty arrays called "contactNumbers" and
 // "contactNames". Using the prompt, you will ask the user to enter a contact number
@@ -104,31 +104,41 @@
 // Make sure to use descriptive variable names and comment on your code for clarity.
 
 
+let contactNumber= []        
+let contactNames= [] 
+let num1= +prompt("enter  1st number");
+let name1 = prompt ("enter  1st name"); 
+let num2= +prompt("enter  2nd number");
+let name2 = prompt ("enter  2nd name"); 
+let num3= +prompt("enter 3rd number");
+let name3 = prompt ("enter  3rd name");
+contactNumber.push(num1,num2,num3);
+contactNames.push(name1,name2,name3);
+console.log("Names " + contactNames + "\n Numbers " + contactNumber);
 
 
-
-// // // **********Task 6 products **********
+// **********Task 6 products **********
 // Create an Array that contains different products, and get input from the user in which you
 // ask your user to give the position of that element he/she wants. Now remove that Item
 // from your array and console the removed item, Also display the remaining items in the
 // array and total number of items remaining.
 
-const fruits = [];
-fruits.push("banana", "apple", "peach");
-console.log(fruits.length); 
+// const fruits = [];
+// fruits.push("banana", "apple", "peach");
+// console.log(fruits.length); 
 
 
-fruits[5] = "mango";
-console.log(fruits[5]); 
-console.log(Object.keys(fruits));
-console.log(fruits.length); 
+// fruits[5] = "mango";
+// console.log(fruits[5]); 
+// console.log(Object.keys(fruits));
+// console.log(fruits.length); 
 
 
-fruits.length = 10;
-console.log(fruits); 
-console.log(Object.keys(fruits)); 
-console.log(fruits.length); 
-console.log(fruits[8]); 
+// fruits.length = 10;
+// console.log(fruits); 
+// console.log(Object.keys(fruits)); 
+// console.log(fruits.length); 
+// console.log(fruits[8]); 
 
 // // // **********Task 7 Contact number**********
 
